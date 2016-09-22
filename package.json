@@ -1,0 +1,17 @@
+{
+  "name": "webpack_react_sass_starter_kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Christian Palazzo",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^2.1.0-beta.25"
+  },
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}
