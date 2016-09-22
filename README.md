@@ -32,7 +32,7 @@ $ npm start
 
 * go to http://localhost:3000;
 
-**Navigate througth the repository commits to see the different features:**
+**Navigate through the repository commits to see the different features:**
 * SASS precompiling;
 * multiple bundle implementation;
 * vendor bundle; 
