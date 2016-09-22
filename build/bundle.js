@@ -11034,8 +11034,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!./../node_modules/css-loader/index.js!./style.css", function() {
-			var newContent = require("!!./../node_modules/css-loader/index.js!./style.css");
+		module.hot.accept("!!./../node_modules/css-loader/index.js!./../node_modules/sass-loader/index.js!./style.sass", function() {
+			var newContent = require("!!./../node_modules/css-loader/index.js!./../node_modules/sass-loader/index.js!./style.sass");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -11053,7 +11053,7 @@ exports = module.exports = __webpack_require__(90)();
 
 
 // module
-exports.push([module.i, "div {\n\tbackground-color: green;\n\tcolor: white;\n}", ""]);
+exports.push([module.i, "div {\n  background-color: #00FF00;\n  color: #FFFFFF; }\n", ""]);
 
 // exports
 
